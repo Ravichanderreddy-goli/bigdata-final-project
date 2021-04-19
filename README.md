@@ -11,7 +11,7 @@ Source [The Project Gutenberg eBook of Keetje, by Neel Doff](https://www.gutenbe
 - Tools: Pyspark, Databricks, Notebooks, pandas, regex, matplotlib, urllib.
 
 ## Databrick community
-I will be using Databrick community for running the commands. First we have to create a cluster, then after creating it we have to go to the notebooks and create a new notebook with language selected as python.Then after that we have to enter the commands and run it.
+Here we will be using Databrick community for running the commands. First we have to create a cluster, then after creating it we have to go to the notebooks and create a new notebook with language selected as python.Then after that we have to enter the commands and run it.
 
 ## Commands:
 ## Pulling the data
@@ -19,7 +19,7 @@ I will be using Databrick community for running the commands. First we have to c
 import urllib.request
 urllib.request.urlretrieve("https://raw.githubusercontent.com/Ravichanderreddy-goli/bigdata-final-project/main/Project%20GutenbergeBookofKeetje.txt", "/tmp/ravi.txt")
 ```
-In this I am going to pull the data and store it in a tmp folder /ravi.txt
+In this we are pulling the data and store it in a tmp folder /ravi.txt
 
 ```
 dbutils.fs.mv("file:/tmp/ravi.txt", "dbfs:/data/ravi.txt")
@@ -96,3 +96,4 @@ We will use the library matplotlib. I am plotting the graph with the most used w
 
 ## References
 [DZone](https://dzone.com/articles/types-of-matplotlib-in-python)
+[Python](https://docs.python.org/3/library/re.html)
