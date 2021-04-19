@@ -89,9 +89,10 @@ plt.show()
 We will use the library matplotlib. I am plotting the graph with the most used words in x-axis, number of times it is used in y-axis. I have used the charting as bar graph.
 
 ## Results
+![](https://github.com/Ravichanderreddy-goli/bigdata-final-project/blob/main/results.JPG)
 
-
-
+## Chart
+![](https://github.com/Ravichanderreddy-goli/bigdata-final-project/blob/main/chart.JPG)
 
 ## References
 [DZone](https://dzone.com/articles/types-of-matplotlib-in-python)
